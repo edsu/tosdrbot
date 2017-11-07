@@ -6,6 +6,7 @@ for use with diffengine.
 """
 
 import re
+import html
 import requests
 
 
@@ -23,7 +24,7 @@ def links(service_name):
 
 
 def item(link):
-    return """<item><title>%(title)s</title><link>%(url)s</link><guid>%(url)s</guid><description>%(title)s</description></item>""" % link
+    return """<item><title>%(title)s</title><link>%(url)s</link><guid>%(url)s</guid><description>%(title)s</description></item>""" % {'title': html.escape(link['title']), 'url': html.escape(link['url'])}
 
 
 def main():
