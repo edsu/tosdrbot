@@ -1,6 +1,7 @@
 This is a little project for expressing the terms of service documents tracked
 by the [Terms of Service; Didn't Read Project](https://tosdr.org) as RSS so that
-they can be tracked by [diffengine](https://github.com/docnow/diffengine).
+they can be tracked by a [diffengine](https://github.com/docnow/diffengine)
+instance.
 
 Specifically the rules xml documents found in the
 [tosdr/tosback2](https://github.com/tosdr/tosback2/tree/master/rules) project
