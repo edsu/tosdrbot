@@ -3,7 +3,8 @@ by the [TermsOfS;Didn't Read Project](https://tosdr.org) as RSS so that they can
 be tracked by [diffengine](https://github.com/docnow/diffengine). Specifically
 the rules xml documents found in the
 [tosdr/tosback2](https://github.com/tosdr/tosback2/tree/master/rules) project
-are downloaded, parsed and written out as an RSS file that are available at
+are downloaded, parsed and written out as an RSS file that are available at:
+
 https://edsu.github.io/tosdrbot/rss.xml
 
 Converting the rules to RSS may seem like a step backwards but it is just a
