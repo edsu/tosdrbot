@@ -5,7 +5,7 @@ instance.
 
 Specifically the rules xml documents found in the
 [tosdr/tosback2](https://github.com/tosdr/tosback2/tree/master/rules) project
-are downloaded, parsed and written out as an RSS file that are available at:
+are downloaded, parsed and written out as an RSS file that is published at:
 
 https://edsu.github.io/tosdrbot/rss.xml
 
